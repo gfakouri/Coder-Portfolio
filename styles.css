@@ -5,74 +5,108 @@ body {
 
 
 
-/* Section D */
-
+/*FIRST ROW STYLING */
 #section-1 .box:nth-child(1){
     padding: 2em;
-    color: #fff;
-    background-color: #101E1B;
+    color: #101E1B;
+    background-color: #EEEEEE;
     background-size: 100% 100%;
-    opacity: 0.5;
-    align-content: center;
+}
 
+#section-1 .box h2{
+    display: flex;
+    justify-content: center;
 }
 
 #section-1 .box:nth-child(2){
     padding: 2em;
-    color: #fff;
-    background-color: #1E2A2D;
-    
+    color: #101E1B;
+    background-color: 	#ffffff; 
 }
+
 
 #section-1 .box:nth-child(3){
     padding: 2em;
-    color: #101E1B;
-    background-color: #FDFDE0;
+    color: #fff;
+    background-color: #474f48;
+    opacity: 0.9;
 }
 
+/*ALIGN TEXT AND ICONS*/
+#section-1 .box .fas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-1 .box:nth-child(1) .fab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*SECOND ROW STYLING */
 #section-2 .box:nth-child(1){
     padding: 2em;
     color: #fff;
-    background-color: #4E5148;
+    background-color: #970203;
+    opacity: 0.5;
 }
 
 #section-2 .box:nth-child(2){
     padding: 2em;
-    color: #fff;
-    background-color: #283332;
+    color: #474f48;
+    background-color: #b8c3bb;
 }
 
 #section-2 .box:nth-child(3){
     padding: 2em;
-    color: #fff;
-    background-color: #4E5148;
+    color: #474f48;
+    background-color: 	#eeeeee;
 }
 
+/*ALIGN TEXT AND ICONS*/
+#section-2 .box .fab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*THIRD ROW STYLING */
 #section-3 .box:nth-child(1){
     padding: 2em;
-    color: #101E1B;
-    background-color: #FDFDE0;
+    color: #474f48;
+    background-color: #ffffff;
+}
+
+#section-2 .box h2{
+    display: flex;
+    justify-content: center;
 }
 
 #section-3 .box:nth-child(2){
     padding: 2em;
     color: #fff;
-    background-color: #1E2A2D;
+    background-color: #474f48;
 }
 
 #section-3 .box:nth-child(3){
     padding: 2em;
     color: #fff;
-    background-color: #101E1B;
+    background-color: #970203;
+    opacity: 0.8;
 }
 
-#section-1 .box:nth-child(1):hover{
-    background-color: #FDFDE0;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    opacity:1;
-    color: #101E1B;
+/*ALIGN TEXT AND ICONS*/
+#section-3 .box .fab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+#section-3 .box h2{
+    display: flex;
+    justify-content: center;
 }
 
 #section-2 .box:nth-child(2):hover{
@@ -102,8 +136,6 @@ body {
         grid-template-columns: 1fr 1fr 1fr;
 
     }
-  
-
   }
   
-  }
+  
