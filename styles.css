@@ -1,0 +1,109 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+
+
+
+/* Section D */
+
+#section-1 .box:nth-child(1){
+    padding: 2em;
+    color: #fff;
+    background-color: #101E1B;
+    background-size: 100% 100%;
+    opacity: 0.5;
+    align-content: center;
+
+}
+
+#section-1 .box:nth-child(2){
+    padding: 2em;
+    color: #fff;
+    background-color: #1E2A2D;
+    
+}
+
+#section-1 .box:nth-child(3){
+    padding: 2em;
+    color: #101E1B;
+    background-color: #FDFDE0;
+}
+
+#section-2 .box:nth-child(1){
+    padding: 2em;
+    color: #fff;
+    background-color: #4E5148;
+}
+
+#section-2 .box:nth-child(2){
+    padding: 2em;
+    color: #fff;
+    background-color: #283332;
+}
+
+#section-2 .box:nth-child(3){
+    padding: 2em;
+    color: #fff;
+    background-color: #4E5148;
+}
+
+#section-3 .box:nth-child(1){
+    padding: 2em;
+    color: #101E1B;
+    background-color: #FDFDE0;
+}
+
+#section-3 .box:nth-child(2){
+    padding: 2em;
+    color: #fff;
+    background-color: #1E2A2D;
+}
+
+#section-3 .box:nth-child(3){
+    padding: 2em;
+    color: #fff;
+    background-color: #101E1B;
+}
+
+#section-1 .box:nth-child(1):hover{
+    background-color: #FDFDE0;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    opacity:1;
+    color: #101E1B;
+
+}
+
+#section-2 .box:nth-child(2):hover{
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity:1;
+    color: #101E1B;
+}
+
+
+#section-3 .box:nth-child(3):hover{
+    background-image: url(liverpool.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    opacity:1;
+    color: #101E1B;
+}
+
+
+/* Media Query */
+
+@media(min-width: 700px) {
+    .grid{
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+  
+
+  }
+  
+  }
