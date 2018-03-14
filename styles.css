@@ -3,21 +3,18 @@ body {
 }
 
 
-
-
 /*FIRST ROW STYLING */
 #section-1 .box:nth-child(1){
     padding: 2em;
-    color: #101E1B;
+    color: #474f48;
     background-color: #EEEEEE;
-    background-size: 100% 100%;
 }
 
 
 
 #section-1 .box:nth-child(2){
     padding: 2em;
-    color: #101E1B;
+    color: #474f48;
     background-color: 	#ffffff; 
 }
 
@@ -26,7 +23,6 @@ body {
     padding: 2em;
     color: #fff;
     background-color: #474f48;
-    opacity: 0.9;
 }
 
 /*ALIGN TEXT AND ICONS*/
@@ -52,7 +48,7 @@ body {
     padding: 2em;
     color: #fff;
     background-color: #970203;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 #section-2 .box:nth-child(2){
@@ -92,11 +88,6 @@ body {
     background-color: #ffffff;
 }
 
-#section-2 .box h1{
-    display: flex;
-    justify-content: center;
-}
-
 #section-3 .box:nth-child(2){
     padding: 2em;
     color: #fff;
@@ -122,6 +113,9 @@ body {
     justify-content: center;
 }
 
+
+
+/*HOVER*/
 #section-2 .box:nth-child(2):hover{
     
     background-size: 100% 100%;
@@ -144,7 +138,7 @@ body {
 #main-footer {
     padding: 2em;
     background: #000000;
-    color: #fff;
+    color: #b8c3bb;
     opacity: 0.8;
     font-size: 18px;
     display: flex;
