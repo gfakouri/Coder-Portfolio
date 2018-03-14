@@ -13,10 +13,7 @@ body {
     background-size: 100% 100%;
 }
 
-#section-1 .box h2{
-    display: flex;
-    justify-content: center;
-}
+
 
 #section-1 .box:nth-child(2){
     padding: 2em;
@@ -42,6 +39,11 @@ body {
 #section-1 .box:nth-child(1) .fab{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+#section-1 .box h1{
+    display: flex;
     justify-content: center;
 }
 
@@ -72,6 +74,17 @@ body {
     justify-content: center;
 }
 
+#section-2 .box .fas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-2 .box h1{
+    display: flex;
+    justify-content: center;
+}
+
 /*THIRD ROW STYLING */
 #section-3 .box:nth-child(1){
     padding: 2em;
@@ -79,7 +92,7 @@ body {
     background-color: #ffffff;
 }
 
-#section-2 .box h2{
+#section-2 .box h1{
     display: flex;
     justify-content: center;
 }
@@ -104,7 +117,7 @@ body {
     justify-content: center;
 }
 
-#section-3 .box h2{
+#section-3 .box h1{
     display: flex;
     justify-content: center;
 }
@@ -119,23 +132,33 @@ body {
 
 
 #section-3 .box:nth-child(3):hover{
-    background-image: url(liverpool.jpg);
+  
     background-size: 100% 100%;
     background-repeat: no-repeat;
     opacity:1;
     color: #101E1B;
 }
 
+/* Footer */
+
+#main-footer {
+    padding: 2em;
+    background: #000000;
+    color: #fff;
+    opacity: 0.8;
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
+}
 
 /* Media Query */
 
 @media(min-width: 700px) {
     .grid{
         display: grid;
-
         grid-template-columns: 1fr 1fr 1fr;
-
     }
+
   }
   
   
