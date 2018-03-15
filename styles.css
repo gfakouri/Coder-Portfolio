@@ -25,6 +25,21 @@ body {
     background-color: #474f48;
 }
 
+#section-1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#section-2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#section-3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /*ALIGN TEXT AND ICONS*/
 #section-1 .box .fas {
     display: flex;
@@ -48,7 +63,7 @@ body {
     padding: 2em;
     color: #fff;
     background-color: #970203;
-    opacity: 0.6;
+    opacity: 1;
 }
 
 #section-2 .box:nth-child(2){
@@ -115,23 +130,125 @@ body {
 
 
 
-/*HOVER*/
-#section-2 .box:nth-child(2):hover{
-    
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    opacity:1;
-    color: #101E1B;
+/*POPUP*/
+
+/*SECTION 1 POP*/
+
+#section-1 .box #thumbsUp {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
 }
 
+#section-1 .box #thumbsUp:hover {
+color: green;
+}
 
-#section-3 .box:nth-child(3):hover{
+#section-1 .box #book {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#section-1 .box #book:hover {
+color: green;
+}
+
+#section-1 .box #email {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#section-1 .box #email:hover {
+color: green;
+}
+
+/*SCETION 2 POP*/
+#section-2 .box #football {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#section-2 .box #football:hover {
+color: green;
+}
+
+#section-2 .box #house {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#section-2 .box #house:hover {
+color: green;
+}
+
+#section-2 .box #hub {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#section-2 .box #hub:hover {
+color: green;
+}
+
+/*SECTION 3 POP*/
+
+#section-3 .box faceb {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+#section-3 .box #faceb:hover {
+color: green;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+  } 
+
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    color: #333;
+    opacity: 1;
+  }
+
+  .popup .close {
+    display: flex;
+    justify-content: center;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .popup .close:hover {
+    color: orange;
+  }
   
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    opacity:1;
-    color: #101E1B;
-}
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+
+
 
 /* Footer */
 
@@ -144,6 +261,9 @@ body {
     display: flex;
     justify-content: right;
 }
+
+
+  
 
 /* Media Query */
 
