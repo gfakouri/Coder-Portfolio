@@ -1,5 +1,8 @@
+
 body {
-    font-family: 'PT Serif', serif;
+    font-family: 'OrkneyRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
 }
 
 
@@ -143,20 +146,22 @@ body {
 }
 
 #section-1 .box #thumbsUp:hover {
-    color: green;
+    color: #8b8072;
+    opacity: 0.5;
     -webkit-transform: scale(1.3) rotateZ(-5deg);
     -ms-transform: scale(1.3) rotateZ(-5deg);
     transform: scale(1.3) rotateZ(-5deg);
 }
 
-/* PORTFOLIO POP*/
+/* EXPERIENCE POP*/
 #section-1 .box #exp {
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
 
 #section-1 .box #exp:hover {
-    color: green;
+    color: #8b8072;
+    opacity: 0.9;
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
@@ -169,7 +174,8 @@ body {
 }
 
 #section-1 .box #email:hover {
-    color: green;
+    color: #8b8072;
+    opacity: 0.9;
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
@@ -177,29 +183,30 @@ body {
 
 /*SECTION 2 POP*/
 
-/* INTERESTS POP*/
+/* EDUCATION POP*/
 #section-2 .box #education {
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
 
 #section-2 .box #education:hover {
-    will-change: transform, opacity;
-    color: green;
+    color: #8b8072;
+    opacity: 0.9;
     -webkit-transform: scale(1.3) rotateZ(5deg);
     -ms-transform: scale(1.3) rotateZ(5deg);
     transform: scale(1.3) rotateZ(5deg);
 }
 
 
-/* ADDRESS POP*/
+/* SKILLS POP*/
 #section-2 .box #skills {
     cursor: pointer;
     transition: all 0.3s ease-out;
 }
 
 #section-2 .box #skills:hover {
-    color: green;
+    color: #8b8072;
+    opacity: 0.9;
     -webkit-transform: scale(1.3) rotateZ(-5deg);
     -ms-transform: scale(1.3) rotateZ(-5deg);
     transform: scale(1.3) rotateZ(-5deg);
@@ -212,7 +219,8 @@ body {
 }
 
 #section-2 .box #hub:hover {
-    color: green;
+    color: #8b8072;
+    opacity: 0.9;
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
@@ -227,7 +235,8 @@ body {
 }
 
 #section-3 .box #faceb:hover {
-    color: green;
+    color: #8b8072;
+    opacity: 0.9;
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
@@ -240,7 +249,8 @@ body {
 }
 
 #section-3 .box #link:hover {
-    color: green;
+    color: #8b8072;
+    opacity: 0.9;
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
@@ -253,7 +263,8 @@ body {
 }
 
 #section-3 .box #insta:hover {
-    color: green;
+    color: #8b8072;
+    opacity: 0.9;
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
