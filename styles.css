@@ -4,6 +4,8 @@ body {
     font-family: 'OrkneyRegular'; 
     font-weight: normal; 
     font-style: normal; 
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -312,7 +314,7 @@ body {
 
 /*EXPERIENCE SLIDER */
   .slide3{
-    height:50%;
+    height:70%;
     width:0px;
     position:fixed;
     z-index:1;
@@ -543,6 +545,7 @@ input[type=submit]:hover {
 /* Media Query */
 
 @media (min-width: 700px) {
+
 
     .grid {
         display: grid;
