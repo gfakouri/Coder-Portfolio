@@ -19,40 +19,43 @@
 
 <body>
 
+    <!-- Elements in Grid -->  
 
-
-    <!-- Row 1 Elements -->    
     <section id="section" class="grid">
 
         <!-- Personal Statement Element -->
+
         <div class="box1">
             <h1 class="content-title">Gareth Fakouri</h1>
-            
-            
-                <a href="#"  onclick="openSlide1()">      
+                        
+            <a href="#"  onclick="openSlide1()">      
                 <i class="fab fa-angellist fa-8x" id="thumbsUp"/></i>                            
-                </a>
+            </a>
 
-                <div id="popup1" class="slide1">
+            <div id="popup1" class="slide1">
 
-                        <a href="#" onclick="closeSlide1()">&times;</a>
-                        <div class="content">
-                            <h1>Gareth Fakouri</h1>
-                            <h3>Aspiring Web Developer</h3>
-                            <p>Born in the UK, emmigrated to Australia Perth and currently training in Melbourne.</p> 
-                            <p>I live with my partner, dog and two ducks in a leafy suburb of Perth.</p>
-                            <p>My greatest interest is spending time with my partner exploring the great open spaces of Western Australia. To do this we have our trusty steed a kitted out Landcruiser Troopy that can take us anywhere we desire</p> 
-                            <p>My dark secret is miniature wargaming where i can be a bit creative painting and modding to create sculpts of average quality.</p>
-                            <p>I have been a regular volunteer for the charity People Who Care as i believe it is important to give something back to the community.</p>            
+                <a href="#" onclick="closeSlide1()">&times;</a>
+                
+                <div class="content">
+
+                    <h1>Gareth Fakouri</h1>
+                    <h3>Aspiring Web Developer</h3>
+                    <p>Born in the UK, emmigrated to Australia Perth and currently training in Melbourne.</p> 
+                    <p>I live with my partner, dog and two ducks in a leafy suburb of Perth.</p>
+                    <p>My greatest interest is spending time with my partner exploring the great open spaces of Western Australia. To do this we have our trusty steed a kitted out Landcruiser Troopy that can take us anywhere we desire</p> 
+                    <p>My dark secret is miniature wargaming where i can be a bit creative painting and modding to create sculpts of average quality.</p>
+                    <p>I have been a regular volunteer for the charity People Who Care as i believe it is important to give something back to the community.</p>            
                   
                 </div>
             </div>
         </div>
 
         <script>
+
             function openSlide1() {
-                document.getElementById("popup1").style.width="95%";
+                document.getElementById("popup1").style.width="350px";
             }
+
             function closeSlide1() {
                 document.getElementById("popup1").style.width="0px";
             }
@@ -60,267 +63,324 @@
         </script>
 
         <!-- Portfolio Element -->
+
         <div class="box2">
             <h1 class="content-title">PortFolio</h1>
 
-
                 <a href="#" onclick="openSlide2()">
-                <i class="fas fa-book fa-3x" id="portfolio"></i> 
+                     <i class="fas fa-address-card fa-3x" id="portfolio"></i>
                 </a>
 
                 <div id="popup2" class="slide2">
 
+                    <a href="#" onclick="closeSlide2()">&times;</a>
 
-                        <a href="#" onclick="closeSlide2()">&times;</a>
-                        <div class="content">
-                            <h1>Skills</h1>
-                            <h2>Frontend</h2>
-                            <h3>HTML5 <span><i class="devicon-html5-plain"></i></span></h3>
-                            <h3>CSS3 <span><i class="devicon-css3-plain"></i></span> </h3>
-                            <h2>Coding</h2>
-                            <h3>Python <span><i class="devicon-python-plain"></i></span></h3>
-                            <h3>Ruby <span><i class="devicon-ruby-plain"></i></span></h3>
-                            <h2>Version</h2>
-                            <h3>git <span><i class="devicon-git-plain"></i></span></h3>
-                            <h3>github <span><i class="devicon-github-plain"></i></span></h3>
+                    <div class="content">
+
+                        <h1>Skills</h1>
+                        <h2>Frontend</h2>
+                        <h3>HTML5 <span><i class="devicon-html5-plain"></i></span></h3>
+                        <h3>CSS3 <span><i class="devicon-css3-plain"></i></span> </h3>
+                        <h2>Coding</h2>
+                        <h3>Python <span><i class="devicon-python-plain"></i></span></h3>
+                        <h3>Ruby <span><i class="devicon-ruby-plain"></i></span></h3>
+                        <h2>Version</h2>
+                        <h3>git <span><i class="devicon-git-plain"></i></span></h3>
+                        <h3>github <span><i class="devicon-github-plain"></i></span></h3>
                  
                 </div>
             </div>
         </div>
 
         <script>
+
                 function openSlide2() {
-                    document.getElementById("popup2").style.width="95%";
+                    document.getElementById("popup2").style.width="350px";
                 }
+
                 function closeSlide2() {
                     document.getElementById("popup2").style.width="0px";
                 }
+
         </script>
 
 
         <!-- Experience Element -->
+
         <div class="box3">
             <h1 class="content-title">ExpeRience</h1>
 
-                <a href="#" onclick="openSlide3()"> 
+            <a href="#" onclick="openSlide3()"> 
                 <i class="fas fa-industry fa-3x" id="exp"></i>
-                </a>
+            </a>
 
-                <div id="popup3" class="slide3">
+            <div id="popup3" class="slide3">
+                
+                <a href="#" onclick="closeSlide3()">&times;</a>
+                
+                <div class="content">
                     
-                        <a href="#" onclick="closeSlide3()">&times;</a>
-                        <div class="content">
-                        <h1>Experience</h1>
-                        <h3>Prime Horizontal Ltd 2013-2015</h3>
-                        <p>Field Engineer - Location - Worldwide.</p>
-                        <h3>Surtron Technologies 2011-2013</h3>
-                        <p>Steering Engineer - Location - Queensland.</p>
-                        <h3>Prime Horizontal 2008-2011</h3>
-                        <p>Field Engineer - Location - Worldwide.</p>
-                        <h3>Laing ORourke 2005-2008</h3>
-                        <p>Construction Engineer - Location - UK.</p>
+                    <h1>Experience</h1>
+                    <h3>Prime Horizontal Ltd 2013-2015</h3>
+                    <p>Field Engineer - Location - Worldwide.</p>
+                    <h3>Surtron Technologies 2011-2013</h3>
+                    <p>Steering Engineer - Location - Queensland.</p>
+                    <h3>Prime Horizontal 2008-2011</h3>
+                    <p>Field Engineer - Location - Worldwide.</p>
+                    <h3>Laing ORourke 2005-2008</h3>
+                    <p>Construction Engineer - Location - UK.</p>
                                       
                 </div>
             </div>            
         </div>
 
         <script>
-                function openSlide3() {
-                    document.getElementById("popup3").style.width="95%";
-                }
-                function closeSlide3() {
-                    document.getElementById("popup3").style.width="0px";
-                }
+
+            function openSlide3() {
+                document.getElementById("popup3").style.width="350px";
+            }
+            function closeSlide3() {
+                document.getElementById("popup3").style.width="0px";
+            }
+
         </script>
 
         <!-- Email Element -->
+
         <div class="box4">
             <h1 class="content-title">ContactMe</h1>
 
-                <a href="#" onclick="openSlide4()"> 
+            <a href="#" onclick="openSlide4()"> 
                 <i class="fas fa-at fa-6x" id="email"></i>
-                </a>
+            </a>
 
-                <div id="popup4" class="slide4">
+            <div id="popup4" class="slide4">
  
-                        <a href="#" onclick="closeSlide4()">&times;</a>
-                        <div class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, officiis excepturi et quas hic consequuntur! Hic iste harum ad dignissimos adipisci molestiae dolorum praesentium fugiat ipsum, eum porro, aliquam repellendus?
-                    </div>                   
-                </div>
-            </div>             
+                <a href="#" onclick="closeSlide4()">&times;</a>
+                <div class="content">
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, officiis excepturi et quas hic consequuntur! Hic iste harum ad dignissimos adipisci molestiae dolorum praesentium fugiat ipsum, eum porro, aliquam repellendus?</p>
+                
+                </div>                   
+            </div>
+        </div>             
         
-            <script>
-                    function openSlide4() {
-                        document.getElementById("popup4").style.width="95%";
-                    }
-                    function closeSlide4() {
-                        document.getElementById("popup4").style.width="0px";
-                    }
-            </script>
+        <script>
+
+            function openSlide4() {
+                document.getElementById("popup4").style.width="350px";
+            }
+
+            function closeSlide4() {
+                document.getElementById("popup4").style.width="0px";
+            }
+                
+        </script>
     
 
         <!-- Educations Element -->
+
         <div class="box6">
+
             <h1 class="content-title">EducaTion</h1>
 
             <a href="#" onclick="openSlide6()"> 
                 <i class="fas fa-graduation-cap fa-3x" id="education"></i>
-                </a>
+            </a>
 
-                <div id="popup6" class="slide6">
+            <div id="popup6" class="slide6">
 
-                        <a href="#" onclick="closeSlide6()">&times;</a>
-                        <div class="content">
-                        <h1>Education</h1>
-                        <h3>Coder Academy 2018</h3>
-                        <p>Higher Eduction Diploma of Information Technology.</p>
-                        <h3>ECU 2015-2017</h3>
-                        <p>BSc of Mathematics &amp; Computer Science - Two years completed. </p>
-                        <h3>Camborne School of Mines 1997-2001</h3>
-                        <p>BEng Mineral Surveying &amp; Resource Mangement.</p>
+                <a href="#" onclick="closeSlide6()">&times;</a>
+
+                <div class="content">
+                    
+                    <h1>Education</h1>
+                    <h3>Coder Academy 2018</h3>
+                    <p>Higher Eduction Diploma of Information Technology.</p>
+                    <h3>ECU 2015-2017</h3>
+                    <p>BSc of Mathematics &amp; Computer Science - Two years completed. </p>
+                    <h3>Camborne School of Mines 1997-2001</h3>
+                    <p>BEng Mineral Surveying &amp; Resource Mangement.</p>
                  
                 </div>
             </div>             
         </div>
 
         <script>
+            
                 function openSlide6() {
-                    document.getElementById("popup6").style.width="95%";
+                    document.getElementById("popup6").style.width="350px";
                 }
+
                 function closeSlide6() {
                     document.getElementById("popup6").style.width="0px";
                 }
+
         </script>
 
         <!-- Skills Element -->
+
         <div class="box5">
             <h1 class="content-title">SkilLs</h1>
 
             <a href="#" onclick="openSlide5()">
                 <i class="fas fa-keyboard fa-4x" id="skills"></i>  
-                </a>
+            </a>
 
-                <div id="popup5" class="slide5">
+            <div id="popup5" class="slide5">
          
-                        <a href="#" onclick="closeSlide5()">&times;</a>
-                        <div class="content">
-                            <h1>Skills</h1>
-                            <h2>Frontend</h2>
-                            <h3>HTML5 <span><i class="devicon-html5-plain"></i></span></h3>
-                            <h3>CSS3 <span><i class="devicon-css3-plain"></i></span> </h3>
-                            <h2>Coding</h2>
-                            <h3>Python <span><i class="devicon-python-plain"></i></span></h3>
-                            <h3>Ruby <span><i class="devicon-ruby-plain"></i></span></h3>
-                            <h2>Version</h2>
-                            <h3>git <span><i class="devicon-git-plain"></i></span></h3>
-                            <h3>github <span><i class="devicon-github-plain"></i></span></h3>
+                <a href="#" onclick="closeSlide5()">&times;</a>
+
+                <div class="content">
+
+                    <h1>Skills</h1>
+                    <h2>Frontend</h2>
+                    <h3>HTML5 <span><i class="devicon-html5-plain"></i></span></h3>
+                    <h3>CSS3 <span><i class="devicon-css3-plain"></i></span> </h3>
+                    <h2>Coding</h2>
+                    <h3>Python <span><i class="devicon-python-plain"></i></span></h3>
+                    <h3>Ruby <span><i class="devicon-ruby-plain"></i></span></h3>
+                    <h2>Version</h2>
+                    <h3>git <span><i class="devicon-git-plain"></i></span></h3>
+                    <h3>github <span><i class="devicon-github-plain"></i></span></h3>
                                
                 </div>
             </div>
         </div>
 
         <script>
+
                 function openSlide5() {
-                    document.getElementById("popup5").style.width="95%";
+                    document.getElementById("popup5").style.width="350px";
                 }
+
                 function closeSlide5() {
                     document.getElementById("popup5").style.width="0px";
                 }
+
         </script>
 
 
         <!-- Github Element -->
+
         <div class="box7">
             <h1 class="content-title">GitHub</h1>
 
             <a href="#" onclick="openSlide7()">
                 <i class="fab fa-github-square fa-3x" id="hub"></i>
-                </a>   
+            </a>   
 
-                <div id="popup7" class="slide7">
+            <div id="popup7" class="slide7">
 
-                        <a href="#" onclick="closeSlide7()">&times;</a>
-                        <div class="content">
-                            <h1>Github</h1>
-                            <p>Here is an overview of my recent public GitHub additions.</p>
-                            <p>In March of 2018 i created a personal portfolio. The source code is here:</p>
-                            <a href="https://github.com/gfakouri/Coder-Portfolio" target="_blank" style="color: green">https://github.com/gfakouri/Coder-Portfolio</a>
+                <a href="#" onclick="closeSlide7()">&times;</a>
+                
+                <div class="content">
 
-                            <p>In the same month as part of a team i helped create a Ruby star sign API. The source code is here:</p>
-                            <a href="https://github.com/gfakouri/Zodiac" target="_blank" style="color: green">https://github.com/gfakouri/Zodiac</a>
+                    <h1>Github</h1>
+                    <p>Here is an overview of my recent public GitHub additions.</p>
+                    <p>In March of 2018 i created a personal portfolio. The source code is here:</p>
+
+                    <a href="https://github.com/gfakouri/Coder-Portfolio" target="_blank" id="hub">
+                        <i class="fas fa-address-card fa-3x"></i>
+                    </a>
+
+                    <p>In the same month as part of a team i helped create a Ruby star sign API. The source code is here:</p>
+                    <a href="https://github.com/gfakouri/Zodiac" target="_blank">
+                        <i class="fas fa-star fa-3x" id="hub"></i>
+                    </a>
                                       
                 </div>
             </div>
         </div>
 
         <script>
-                function openSlide7() {
-                    document.getElementById("popup7").style.width="95%";
-                }
-                function closeSlide7() {
-                    document.getElementById("popup7").style.width="0px";
-                }
+
+            function openSlide7() {
+                document.getElementById("popup7").style.width="350px";
+            }
+
+            function closeSlide7() {
+                document.getElementById("popup7").style.width="0px";
+            }
+
         </script>       
 
         <!-- Facebook Element -->
+
         <div class="box8">
             <h1 class="content-title">FaceBook</h1>
 
             <a href="#" onclick="openSlide8()">
                 <i class="fab fa-facebook-square fa-5x" id="faceb"></i>
-                </a>
+            </a>
 
-                <div id="popup8" class="slide8">
-                
-                        <a href="#" onclick="closeSlide8()">&times;</a>
-                        <div class="content">
-                        <h1>Facebook</h1>
-                        <p>Feel free to have a nosey of my Facebook account.</p>
-                        <a href="https://www.facebook.com/gareth.fakouri" target="_blank" style="color: green">https://www.facebook.com/gareth.fakouri</a>                        
+            <div id="popup8" class="slide8">
+            
+                <a href="#" onclick="closeSlide8()">&times;</a>
+
+                <div class="content">
+
+                    <h1>Facebook</h1>
+                    <p>Feel free to have a nosey of my Facebook account.</p>
+                    <a href="https://www.facebook.com/gareth.fakouri" target="_blank">
+                        <i class="fab fa-facebook-square fa-4x" id="faceb"></i>
+                    </a>                        
                                       
                 </div>
             </div>
         </div>
 
         <script>
-                function openSlide8() {
-                    document.getElementById("popup8").style.width="95%";
-                }
-                function closeSlide8() {
-                    document.getElementById("popup8").style.width="0px";
-                }
+
+            function openSlide8() {
+                document.getElementById("popup8").style.width="350px";
+            }
+
+            function closeSlide8() {
+                document.getElementById("popup8").style.width="0px";
+            }
+
         </script>     
 
         <!-- Linkedin Element -->
+
         <div class="box9">
             <h1 class="content-title">LinkeDin</h1>
 
             <a href="#" onclick="openSlide9()">
                 <i class="fab fa-linkedin fa-8x" id="link"></i> 
-                </a>
+            </a>
 
-                <div id="popup9" class="slide9">
+            <div id="popup9" class="slide9">
         
-                        <a href="#" onclick="closeSlide9()">&times;</a>
-                        <div class="content">
-                            <h1>Linkedin</h1>
-                            <p>Feel free to have a nosey of my Linkedin account.</p>
-                            <a href="https://au.linkedin.com/in/gareth-fakouri-a5a91079" target="_blank" style="color: green">https://au.linkedin.com/in/gareth-fakouri-a5a91079</a>
+                <a href="#" onclick="closeSlide9()">&times;</a>
+
+                <div class="content">
+
+                    <h1>Linkedin</h1>
+                    <p>Feel free to have a nosey of my Linkedin account.</p>
+                    <a href="https://au.linkedin.com/in/gareth-fakouri-a5a91079" target="_blank">
+                        <i class="fab fa-linkedin fa-4x" id="link"></i> 
+                    </a>
                                    
                 </div>
             </div>                
         </div>
 
         <script>
-                function openSlide9() {
-                    document.getElementById("popup9").style.width="95%";
-                }
-                function closeSlide9() {
-                    document.getElementById("popup9").style.width="0px";
-                }
+
+            function openSlide9() {
+                document.getElementById("popup9").style.width="350px";
+            }
+
+            function closeSlide9() {
+                document.getElementById("popup9").style.width="0px";
+            }
+
         </script>   
 
         <!-- Instagram Element -->
+
         <div class="box10">
             <h1 class="content-title">InstaGram</h1>
 
@@ -330,31 +390,33 @@
 
             <div id="popup10" class="slide10">
                     
-                        <a href="#" onclick="closeSlide10()">&times;</a>
-                        <div class="content">
-                            <h1>Instagram</h1>
-                            <p>Feel free to have a nosey of my Instagram account.</p>
-                            <a href="https://www.instagram.com/garethfakouri/?hl=en" target="_blank" style="color: green">https://www.instagram.com/garethfakouri/?hl=en</a>
+                <a href="#" onclick="closeSlide10()">&times;</a>
+                
+                <div class="content">
+                    <h1>Instagram</h1>
+                    <p>Feel free to have a nosey of my Instagram account.</p>
+                    <a href="https://www.instagram.com/garethfakouri/?hl=en" target="_blank">
+                        <i class="fab fa-instagram fa-4x" id="insta"></i>
+                    </a>
                                      
                 </div>
             </div>                        
         </div>
 
         <script>
-                function openSlide10() {
-                    document.getElementById("popup10").style.width="95%";
-                }
-                function closeSlide10() {
-                    document.getElementById("popup10").style.width="0px";
-                }
+
+            function openSlide10() {
+                document.getElementById("popup10").style.width="350px";
+            }
+
+            function closeSlide10() {
+                document.getElementById("popup10").style.width="0px";
+            }
+
         </script>  
 
 
     </section>
-
-
-
-
 
         <!-- Footer -->
 
@@ -363,4 +425,5 @@
         </footer>
 
 </body>
+
 </html>
