@@ -50,18 +50,6 @@
             </div>
         </div>
 
-        <script>
-
-            function openSlide1() {
-                document.getElementById("popup1").style.width="350px";
-            }
-
-            function closeSlide1() {
-                document.getElementById("popup1").style.width="0px";
-            }
-
-        </script>
-
         <!-- Portfolio Element -->
 
         <div class="box2">
@@ -92,19 +80,6 @@
             </div>
         </div>
 
-        <script>
-
-                function openSlide2() {
-                    document.getElementById("popup2").style.width="350px";
-                }
-
-                function closeSlide2() {
-                    document.getElementById("popup2").style.width="0px";
-                }
-
-        </script>
-
-
         <!-- Experience Element -->
 
         <div class="box3">
@@ -134,17 +109,6 @@
             </div>            
         </div>
 
-        <script>
-
-            function openSlide3() {
-                document.getElementById("popup3").style.width="350px";
-            }
-            function closeSlide3() {
-                document.getElementById("popup3").style.width="0px";
-            }
-
-        </script>
-
         <!-- Email Element -->
 
         <div class="box4">
@@ -157,27 +121,35 @@
             <div id="popup4" class="slide4">
  
                 <a href="#" onclick="closeSlide4()">&times;</a>
+
+                <h2 id="alert">Your Message Has Been Sent.</h2>
+                
                 <div class="content">
 
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, officiis excepturi et quas hic consequuntur! Hic iste harum ad dignissimos adipisci molestiae dolorum praesentium fugiat ipsum, eum porro, aliquam repellendus?</p>
-                
+                    <div class="container">
+
+                        <form id="contactForm">
+                        
+                              <label for="fname">First Name</label>
+                              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          
+                              <label for="lname">Last Name</label>
+                              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                              
+                              <label for="Email">Email</label>
+                              <input type="email" id="Email" name="EmailAddress" placeholder="Your Email..">
+
+                              <label for="subject">Subject</label>
+                              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                          
+                              <input type="submit" value="Submit">
+                          
+                        </form>
+                    </div>
                 </div>                   
             </div>
-        </div>             
-        
-        <script>
-
-            function openSlide4() {
-                document.getElementById("popup4").style.width="350px";
-            }
-
-            function closeSlide4() {
-                document.getElementById("popup4").style.width="0px";
-            }
-                
-        </script>
-    
-
+        </div>  
+           
         <!-- Educations Element -->
 
         <div class="box6">
@@ -205,18 +177,6 @@
                 </div>
             </div>             
         </div>
-
-        <script>
-            
-                function openSlide6() {
-                    document.getElementById("popup6").style.width="350px";
-                }
-
-                function closeSlide6() {
-                    document.getElementById("popup6").style.width="0px";
-                }
-
-        </script>
 
         <!-- Skills Element -->
 
@@ -247,19 +207,6 @@
                 </div>
             </div>
         </div>
-
-        <script>
-
-                function openSlide5() {
-                    document.getElementById("popup5").style.width="350px";
-                }
-
-                function closeSlide5() {
-                    document.getElementById("popup5").style.width="0px";
-                }
-
-        </script>
-
 
         <!-- Github Element -->
 
@@ -293,18 +240,6 @@
             </div>
         </div>
 
-        <script>
-
-            function openSlide7() {
-                document.getElementById("popup7").style.width="350px";
-            }
-
-            function closeSlide7() {
-                document.getElementById("popup7").style.width="0px";
-            }
-
-        </script>       
-
         <!-- Facebook Element -->
 
         <div class="box8">
@@ -323,7 +258,7 @@
                     <h1>Facebook</h1>
                     <p>Feel free to have a nosey of my Facebook account.</p>
                     <a href="https://www.facebook.com/gareth.fakouri" target="_blank">
-                        <i class="fab fa-facebook-square fa-4x" id="faceb"></i>
+                        <i class="fab fa-facebook-square fa-3x" id="faceb"></i>
                     </a>                        
                                       
                 </div>
@@ -360,24 +295,12 @@
                     <h1>Linkedin</h1>
                     <p>Feel free to have a nosey of my Linkedin account.</p>
                     <a href="https://au.linkedin.com/in/gareth-fakouri-a5a91079" target="_blank">
-                        <i class="fab fa-linkedin fa-4x" id="link"></i> 
+                        <i class="fab fa-linkedin fa-3x" id="link"></i> 
                     </a>
                                    
                 </div>
             </div>                
         </div>
-
-        <script>
-
-            function openSlide9() {
-                document.getElementById("popup9").style.width="350px";
-            }
-
-            function closeSlide9() {
-                document.getElementById("popup9").style.width="0px";
-            }
-
-        </script>   
 
         <!-- Instagram Element -->
 
@@ -393,28 +316,16 @@
                 <a href="#" onclick="closeSlide10()">&times;</a>
                 
                 <div class="content">
+
                     <h1>Instagram</h1>
                     <p>Feel free to have a nosey of my Instagram account.</p>
                     <a href="https://www.instagram.com/garethfakouri/?hl=en" target="_blank">
-                        <i class="fab fa-instagram fa-4x" id="insta"></i>
+                        <i class="fab fa-instagram fa-3x" id="insta"></i>
                     </a>
                                      
                 </div>
             </div>                        
         </div>
-
-        <script>
-
-            function openSlide10() {
-                document.getElementById("popup10").style.width="350px";
-            }
-
-            function closeSlide10() {
-                document.getElementById("popup10").style.width="0px";
-            }
-
-        </script>  
-
 
     </section>
 
@@ -427,3 +338,163 @@
 </body>
 
 </html>
+
+
+<!-- JAVASCRIPT TAGS -->
+
+
+<!-- EMAIL JS -->
+
+<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+<script src="form.js" ></script>
+
+    <script>
+
+    function openSlide4() {
+        document.getElementById("popup4").style.width="350px";
+    }
+
+    function closeSlide4() {
+        document.getElementById("popup4").style.width="0px";
+    }
+
+    </script>
+
+<!-- PERSONAL JS -->
+
+    <script>
+
+    function openSlide1() {
+        document.getElementById("popup1").style.width="350px";
+    }
+
+    function closeSlide1() {
+        document.getElementById("popup1").style.width="0px";
+    }
+
+    </script>
+
+<!-- PORTFOLIO JS -->
+
+    <script>
+
+        function openSlide2() {
+            document.getElementById("popup2").style.width="350px";
+        }
+
+        function closeSlide2() {
+            document.getElementById("popup2").style.width="0px";
+        }
+
+    </script>
+
+<!-- EXPERIENCE JS -->
+
+    <script>
+
+        function openSlide3() {
+            document.getElementById("popup3").style.width="350px";
+        }
+        function closeSlide3() {
+            document.getElementById("popup3").style.width="0px";
+        }
+
+    </script>
+
+<!-- EMAIL JS -->
+
+    <script>
+            
+        function openSlide6() {
+            document.getElementById("popup6").style.width="350px";
+        }
+
+        function closeSlide6() {
+            document.getElementById("popup6").style.width="0px";
+        }
+
+    </script>
+
+<!-- EDUCATION JS -->
+
+    <script>
+            
+        function openSlide6() {
+            document.getElementById("popup6").style.width="350px";
+        }
+
+        function closeSlide6() {
+            document.getElementById("popup6").style.width="0px";
+        }
+
+    </script>
+
+<!-- SKILLS JS -->
+
+    <script>
+
+        function openSlide5() {
+            document.getElementById("popup5").style.width="350px";
+        }
+
+        function closeSlide5() {
+            document.getElementById("popup5").style.width="0px";
+        }
+
+    </script>
+
+<!-- GITHUB JS -->
+
+    <script>
+
+        function openSlide7() {
+            document.getElementById("popup7").style.width="350px";
+        }
+
+        function closeSlide7() {
+            document.getElementById("popup7").style.width="0px";
+        }
+
+    </script>
+    
+<!-- FACEBOOK JS -->
+
+    <script>
+
+        function openSlide8() {
+            document.getElementById("popup8").style.width="350px";
+        }
+
+        function closeSlide8() {
+            document.getElementById("popup8").style.width="0px";
+        }
+
+    </script>
+        
+ <!-- LINKEDIN JS -->       
+
+    <script>
+
+        function openSlide9() {
+            document.getElementById("popup9").style.width="350px";
+        }
+
+        function closeSlide9() {
+            document.getElementById("popup9").style.width="0px";
+        }
+
+    </script>
+
+ <!-- INSTAGRAM JS --> 
+
+    <script>
+
+        function openSlide10() {
+            document.getElementById("popup10").style.width="350px";
+        }
+
+        function closeSlide10() {
+            document.getElementById("popup10").style.width="0px";
+        }
+
+    </script>  
