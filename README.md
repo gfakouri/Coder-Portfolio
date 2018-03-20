@@ -11,7 +11,7 @@ Several areas if interest were considered as a possible basis for the website.
 * Iraninan Caligraphy
 
 
-![Calig](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/53-2013015211117-4.jpg =290x290)
+![Calig](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/53-2013015211117-4.jpg)
 
 * Cities lived in.
 
@@ -47,11 +47,20 @@ Possible Colours
 
 * February Dreams
 
-![col feb](http://www.color-hex.com/palettes/56551.png)
+![col feb](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/February%20Dreams%20Color%20Palette%20-%20color-hex.com.png)
 
 * Centro Reds
 
-![col feb](http://www.color-hex.com/palettes/56551.png)
+![centro](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/Centro%20Reds%20Color%20Palette%20-%20color-hex.com.png)
+
+* Slicing Limes
+
+![slice](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/Slicing%20Limes%20Color%20Palette%20-%20color-hex.com.png)
+
+* Patty Rabbit
+
+![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/Patty%20Rabbit%20Color%20Palette%20-%20color-hex.com.png)
+
 
 Say what the step will be
 
