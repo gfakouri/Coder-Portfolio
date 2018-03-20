@@ -107,12 +107,11 @@ The domain name was provided by goDaddy.
 
 ## OUTCOMES
 
-* The goal of this exercise was to gain an understanding of the creative and technical elements required to build a website. 
-
-
-
-
-
+* The goal of this exercise was to gain an understanding of the creative and technical elements required to build a website. I believe i have gained valuable experience of the process required. A key element is that my technical skills don't necessarily match my creative side and therefore compromises had to be made with the end result. I envision that this will become less of a problem as i gain more experience and knowledge.
+* The effective use of third party tools was a very positive experience and will allow greatly enhanced solutions in the future. It must be noted that it was not always effective such as with hosting data on Firebase for download. However i see this as a challenge to be overcome irrespective of the impact on this project.
+* I found it necessary to utilise some Javascript to achieve certain effects. This has increased my understanding of the language and i was pleased to note patterns and structures that are present in other languages.
+* Using git and github over the project has ensured that i have maintained a record of the portfolio, but has also improved my ability to use this system of version control.
+* Overall the project has been a very positive experience and has consolidated the subjects studied so far.
 
 ## Author
 
