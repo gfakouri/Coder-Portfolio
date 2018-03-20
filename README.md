@@ -21,9 +21,21 @@ Several areas if interest were considered as a possible basis for the website.
 
 ![Abstract](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/patt1.jpg)
 
-### Prerequisites
+[Pinterest](https://www.pinterest.com.au/garethfakouri/portfolio/)
 
-What things you need to install the software and how to install them
+[Figma](https://www.figma.com/file/gIlzgj9wI3rP7ErUastyuJph/Personal_Portfolio)
+
+### Design Path
+
+The choice was made to follow the abstract image path. It was felt that it would allow for more varied design decisions during the process. It was necessary to decide on whether the pattern should be ordered or random in nature.
+
+* Ordered.
+
+![Cities](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/patt2.jpg)
+
+* Random.
+
+![Cities](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/patt3.jpg)
 
 ```
 Give examples
