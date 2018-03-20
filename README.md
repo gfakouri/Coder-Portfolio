@@ -10,7 +10,6 @@ Several areas of interest were considered as a possible basis for the website.
 
 * Iraninan Caligraphy
 
-
 ![Calig](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/53-2013015211117-4.jpg)
 
 * Cities lived in.
@@ -61,10 +60,10 @@ Possible Colours
 
 ![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/Patty%20Rabbit%20Color%20Palette%20-%20color-hex.com.png)
 
-
 ```
 The final colour choice made was February Dreams. Why? I liked it?
 ```
+The palettes were compared in desktop and mobile configuration layouts. The February Dreams had enough contrast to ensure the tile elements did not merge into each other.
 
 Possible Fonts
 
@@ -84,7 +83,6 @@ Possible Fonts
 
 ![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/orkney.png)
 
-
 ```
 The font chosen was Orkney. 
 ```
@@ -95,13 +93,13 @@ They are all clean and modern however with a bit of experimentation the choice m
 * The goal for the desktop version was to stay on the same page and use the subject tiling system as the form of navigation. Information was provided by sliding panels which are opened by icon links. These are closed by a standardised exit icon.
 * The mobile UX compresses the subject elements into a vertical stack utilising the same information slide panels as in the desktop version.
 * The intent was to make the relevant subject matter readily accessible to the user and designed to be intuitive.
-
+* All links are opened in a new tab therefore the portfolio site is constantly loaded.
 
 ### Third Party Tools
 
 Firebase was utilised to store the form data. A specific project links directly to the website without any need to utilise an email address embedded in the HTML.
 
-An attempt was made to utlise the storage facility of Firebase to store and return data(resume) to the user. This proved less successful and is a work in progress.
+An attempt was made to utlise the storage facility of Firebase to store and return data(resume) to the user. This proved less successful and is a work in progress. 
 
 Web hosting was carried out by Netifly. 
 
@@ -109,16 +107,16 @@ The domain name was provided by goDaddy.
 
 ## OUTCOMES
 
+* The goal of this exercise was to gain an understanding of the creative and technical elements required to build a website. 
 
 
 
 
 
 
-## Authors
+## Author
 
 Gareth Fakouri
-
 
 ## Acknowledgments
 
