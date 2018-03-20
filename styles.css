@@ -99,9 +99,6 @@ body {
     background: radial-gradient(circle, rgba(184,195,187, 0), rgba(184,195,187, 1.0));
 }
 
-
-
-
 /*ALIGN TEXT AND ICONS*/
 #section .fab {
     display: flex;

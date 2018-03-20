@@ -96,7 +96,7 @@ downloadButton.addEventListener("click", function(){
         xhr.onload = function(event) {
             var blob = xhr.response;
         };
-        
+    
         xhr.open('GET', url);
         xhr.send();
 
