@@ -6,7 +6,7 @@ www.scruffweb.com
 A project to develop a website that showcases my skills and experience utilising HTML and CSS learnt during the Coder Academy Fasttrack course.
 ## Ideas
 
-Several areas if interest were considered as a possible basis for the website.
+Several areas of interest were considered as a possible basis for the website.
 
 * Iraninan Caligraphy
 
@@ -38,7 +38,7 @@ The choice was made to follow the abstract image path. It was felt that it would
 ![Cities](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/patt3.jpg)
 
 ```
-The final design choice was abstract - random.
+The final design choice was abstract - random. This was made after some html/css mockups.
 ```
 
 ### Colours and Fonts
@@ -65,10 +65,29 @@ Possible Colours
 Say what the step will be
 
 ```
-Give the example
+The final colour choice made was February Dreams. Why? I liked it?
 ```
 
-And repeat/home/gareth/Downloads/109311bb0361f32d87a2-824da51d0763e6855c338cc8107b2ff890e7dd43 (1).zip
+Possible Fonts
+
+* Ubuntu
+
+![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/ubuntu-google-fonts.png)
+
+* Namum Gothic
+
+![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/gothic.png)
+
+* Nunito Sans
+
+![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/nunito.png)
+
+* Orkney
+
+![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/orkney.png)
+
+
+
 
 ```
 until finished
