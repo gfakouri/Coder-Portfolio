@@ -38,7 +38,7 @@ The choice was made to follow the abstract image path. It was felt that it would
 ![Cities](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/patt3.jpg)
 
 ```
-Give examples
+G
 ```
 
 ### Installing
