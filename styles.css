@@ -54,6 +54,10 @@ body {
     background: radial-gradient(circle, rgba(184,195,187, 0), rgba(184,195,187, 1.0));
 }
 
+#section .box5 .slide5 h1 {
+    font-size: 35px;
+}
+
 /*EDUCATION STYLING */
 #section .box6{
     padding: 2em;

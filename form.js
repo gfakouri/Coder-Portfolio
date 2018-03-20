@@ -75,3 +75,41 @@ function saveMessage(firstname, lastname, email, message) {
         message: message,
     })
 }
+
+
+var storage = firebase.storage();
+
+var downloadButton = document.getElementById("downloadButton");
+
+var CVRef = storage.ref("cv/CV_Gareth Fakouri.docx");
+
+downloadButton.addEventListener("click", function(){
+
+    CVRef.getDownloadURL().then(function(url){
+
+        console.log("Gareth");
+        console.log(url);
+
+          // This can be downloaded directly:
+        var xhr = new XMLHttpRequest();
+        xhr.responseType = 'blob';
+        xhr.onload = function(event) {
+            var blob = xhr.response;
+        };
+        
+        xhr.open('GET', url);
+        xhr.send();
+
+    })
+});
+
+
+
+
+
+
+
+
+
+
+
