@@ -62,8 +62,6 @@ Possible Colours
 ![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/Patty%20Rabbit%20Color%20Palette%20-%20color-hex.com.png)
 
 
-Say what the step will be
-
 ```
 The final colour choice made was February Dreams. Why? I liked it?
 ```
@@ -87,17 +85,18 @@ Possible Fonts
 ![patty](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/orkney.png)
 
 
-
-
 ```
-until finished
+The font chosen was Orkney. They are all clean and modern however with a bit of experimentation the choice made proved slightly more pleasing than the other fonts.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## UX Design
 
-## Running the tests
+* The goal for the desktop version is to stay on the same page and use the subject tiling system as the form of navigation. Information is provided by sliding panels which are opened by icon links. These are closed by a standardised exit icon.
+* The mobile UX compresses the subject elements into a vertical stack utilising the same information slide panels as in the desktop version.
+* The relevant subject matter is readily accessible to the user and is designed to be intuitive.
 
-Explain how to run the automated tests for this system
+
+
 
 ### Break down into end to end tests
 
