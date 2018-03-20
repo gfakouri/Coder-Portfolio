@@ -23,11 +23,11 @@ Several areas of interest were considered as a possible basis for the website.
 
 [Pinterest](https://www.pinterest.com.au/garethfakouri/portfolio/)
 
-[Figma](https://www.figma.com/file/gIlzgj9wI3rP7ErUastyuJph/Personal_Portfolio)
-
 ### Design Path
 
 The choice was made to follow the abstract image path. It was felt that it would allow for more varied design decisions during the process. It was necessary to decide on whether the pattern should be ordered or random in nature.
+
+[Figma](https://www.figma.com/file/gIlzgj9wI3rP7ErUastyuJph/Personal_Portfolio)
 
 * Ordered.
 
@@ -86,65 +86,44 @@ Possible Fonts
 
 
 ```
-The font chosen was Orkney. They are all clean and modern however with a bit of experimentation the choice made proved slightly more pleasing than the other fonts.
+The font chosen was Orkney. 
 ```
+They are all clean and modern however with a bit of experimentation the choice made proved slightly more pleasing than the other fonts.
 
 ## UX Design
 
-* The goal for the desktop version is to stay on the same page and use the subject tiling system as the form of navigation. Information is provided by sliding panels which are opened by icon links. These are closed by a standardised exit icon.
+* The goal for the desktop version was to stay on the same page and use the subject tiling system as the form of navigation. Information was provided by sliding panels which are opened by icon links. These are closed by a standardised exit icon.
 * The mobile UX compresses the subject elements into a vertical stack utilising the same information slide panels as in the desktop version.
-* The relevant subject matter is readily accessible to the user and is designed to be intuitive.
+* The intent was to make the relevant subject matter readily accessible to the user and designed to be intuitive.
+
+
+### Third Party Tools
+
+Firebase was utilised to store the form data. A specific project links directly to the website without any need to utilise an email address embedded in the HTML.
+
+An attempt was made to utlise the storage facility of Firebase to store and return data(resume) to the user. This proved less successful and is a work in progress.
+
+Web hosting was carried out by Netifly. 
+
+The domain name was provided by goDaddy.
+
+## OUTCOMES
 
 
 
 
-### Break down into end to end tests
 
-Explain what these tests test and why
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+Gareth Fakouri
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Jen Simmons
+* Traversy Media
+* Coder Academy
+* My dog
 
