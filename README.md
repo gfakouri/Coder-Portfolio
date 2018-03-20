@@ -3,13 +3,23 @@
 ```
 www.scruffweb.com
 ```
-A project to develop a website that showcases my personal skills and experience utilising HTML and CSS learnt during the Coder Academy Fasttrack course.
+A project to develop a website that showcases my skills and experience utilising HTML and CSS learnt during the Coder Academy Fasttrack course.
 ## Ideas
 
 Several areas if interest were considered as a possible basis for the website.
 
 * Iraninan Caligraphy
+
+
 ![Calig](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/53-2013015211117-4.jpg)
+
+* Cities lived in.
+
+![Cities](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/liverpool.jpg)
+
+* Abstract Images
+
+![Abstract](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/patt1.jpg)
 
 ### Prerequisites
 
