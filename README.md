@@ -11,7 +11,7 @@ Several areas if interest were considered as a possible basis for the website.
 * Iraninan Caligraphy
 
 
-![Calig](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/53-2013015211117-4.jpg)
+![Calig](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/53-2013015211117-4.jpg =290x290)
 
 * Cities lived in.
 
@@ -38,12 +38,20 @@ The choice was made to follow the abstract image path. It was felt that it would
 ![Cities](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/patt3.jpg)
 
 ```
-
+The final design choice was abstract - random.
 ```
 
-### Installing
+### Colours and Fonts
 
-A step by step series of examples that tell you have to get a development env running
+Possible Colours
+
+* February Dreams
+
+![col feb](http://www.color-hex.com/palettes/56551.png)
+
+* Centro Reds
+
+![col feb](http://www.color-hex.com/palettes/56551.png)
 
 Say what the step will be
 
