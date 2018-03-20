@@ -91,7 +91,7 @@ They are all clean and modern however with a bit of experimentation the choice m
 ## UX Design
 
 * The goal for the desktop version was to stay on the same page and use the subject tiling system as the form of navigation. Information was provided by sliding panels which are opened by icon links. These are closed by a standardised exit icon.
-* The mobile UX compresses the subject elements into a vertical stack utilising the same information slide panels as in the desktop version.
+* The mobile UX compresses the subject elements into a vertical stack utilising the same information slide panels as in the desktop version. A key component was to maintain  a consistency of feel between the platforms.
 * The intent was to make the relevant subject matter readily accessible to the user and designed to be intuitive.
 * All links are opened in a new tab therefore the portfolio site is constantly loaded.
 
@@ -99,11 +99,19 @@ They are all clean and modern however with a bit of experimentation the choice m
 
 Firebase was utilised to store the form data. A specific project links directly to the website without any need to utilise an email address embedded in the HTML.
 
-An attempt was made to utlise the storage facility of Firebase to store and return data(resume) to the user. This proved less successful and is a work in progress. 
+An attempt was made to utlise the storage facility of Firebase to store and return data(cv) to the user. This proved less successful and is a work in progress. 
 
 Web hosting was carried out by Netifly. 
 
 The domain name was provided by goDaddy.
+
+Fontawesome for the icons utilised.
+
+Googlefonts for font selection.
+
+### Testing
+
+The website was initially tested on Google Chrome. It appeared stable in both the desktop and and mobile configurations. On Firefox there weren't any issues in either types of configuration. The testing on Safari was limited to a laptop so i am unsure of the outcome on a mobile. It was also tested on an Android tablet in Chrome and Firefox. Testing is an area that requires further investigation. 
 
 ## OUTCOMES
 
