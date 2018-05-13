@@ -157,6 +157,7 @@ html {
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    transition: 1s;
 }
 
 .ptext .border {
@@ -189,5 +190,10 @@ html {
     }
     .navbar-nav {
         display: none;
+    }
+    .ptext {
+        font-size: 16px;
+        letter-spacing: 4px;
+        transition: 0.5s;
     }
 }
