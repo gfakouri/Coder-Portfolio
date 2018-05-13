@@ -10,7 +10,7 @@ Several areas of interest were considered as a possible basis for the website.
 
 * Iraninan Caligraphy
 
-![Calig](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/53-2013015211117-4.jpg)
+![Calig](https://github.com/gfakouri/Coder-Portfolio/blob/master/assets/flip.jpg)
 
 * Cities lived in.
 
