@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>camping</title>
+    <link rel="stylesheet" href="campingStyle.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width = "30" height = "30">
+                    <path d = "M0, 5 30, 5" stroke = "#fff" stroke-width = "5"/>
+                    <path d = "M0, 14 30, 14" stroke = "#fff" stroke-width = "5"/>
+                    <path d = "M0, 23 30, 23" stroke = "#fff" stroke-width = "5"/>
+                </svg>
+            </a>
+        </span>
+
+        <ul class="navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!--
+
+    <div id="main">
+        <h1>Responsive Side Menu</h1>
+    </div>
+
+-->
+
+    <script>
+        function openSlideMenu() {
+            document.getElementById("side-menu").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeSlideMenu() {
+            document.getElementById("side-menu").style.width = "0px";
+            document.getElementById("main").style.marginLeft = "0px";
+        }
+    </script>
+
+
+
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+            Camping Website
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-light">
+        <h2>Section 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem eum saepe accusamus quia esse eaque vel beatae recusandae? Labore dolorem aspernatur sunt quaerat debitis laboriosam rerum sit excepturi quisquam. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Pariatur placeat magnam quia veniam minus, blanditiis eius laboriosam alias odit dolore eveniet consectetur libero exercitationem sint tempore optio ab sequi accusantium quae rem laborum natus. Earum laboriosam libero eaque
+            fugiat inventore asperiores commodi, ipsam expedita nam, corporis amet nemo ducimus facilis, dignissimos voluptatem aliquid eum dolores quia laudantium ab animi officiis? Maiores, porro. Impedit, totam beatae. Quibusdam distinctio aliquid
+            reiciendis sapiente libero consequatur ipsa sint magni, error assumenda inventore laudantium deserunt atque laborum quidem tempore eum est fugiat doloribus culpa. Vero provident labore saepe excepturi placeat accusantium est odio tempora officia.
+        </p>
+    </section>
+
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border">
+            image two text
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Section 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem eum saepe accusamus quia esse eaque vel beatae recusandae? Labore dolorem aspernatur sunt quaerat debitis laboriosam rerum sit excepturi Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Exercitationem impedit fuga ab illo? Doloremque quia tenetur ipsam perferendis natus velit asperiores culpa atque voluptates rerum eum hic veniam reiciendis, aut, odit quae! Iste magnam deserunt inventore modi exercitationem
+            eveniet! Doloribus eius cumque dignissimos, quasi nemo amet quidem velit sed vitae rem obcaecati quas quisquam commodi. Similique autem recusandae quibusdam, numquam cupiditate reprehenderit eligendi est nobis porro sapiente a mollitia, illo
+            aliquid. At sint fuga, earum, quisquam deleniti temporibus impedit porro, reiciendis delectus dolore sed. Quibusdam est placeat illum debitis fugiat voluptates, minus dolore qui impedit iure, nam veniam saepe esse. </p>
+    </section>
+
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border">
+            image three text
+            </span>
+        </div>
+    </div>
+
+    <section class="section section-dark">
+        <h2>Section 3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla rem eum saepe accusamus quia esse eaque vel beatae recusandae? Labore dolorem aspernatur sunt quaerat debitis laboriosam rerum sit excepturi Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Exercitationem impedit fuga ab illo? Doloremque quia tenetur ipsam perferendis natus velit asperiores culpa atque voluptates rerum eum hic veniam reiciendis, aut, odit quae! Iste magnam deserunt inventore modi exercitationem
+            eveniet! Doloribus eius cumque dignissimos, quasi nemo amet quidem velit sed vitae rem obcaecati quas quisquam commodi. Similique autem recusandae quibusdam, numquam cupiditate reprehenderit eligendi est nobis porro sapiente a mollitia, illo
+            aliquid. At sint fuga, earum, quisquam deleniti temporibus impedit porro, reiciendis delectus dolore sed. Quibusdam est placeat illum debitis fugiat voluptates, minus dolore qui impedit iure, nam veniam saepe esse. </p>
+    </section>
+
+    <div class="pimg4">
+        <div class="ptext">
+            <span class="border">
+            Camping Website
+            </span>
+        </div>
+    </div>
+
+    <footer id="main-footer" class="grid">
+        <div>COPYRIGHT &copy;, LIKE ANY IDEAS HERE ARE MINE. </div>
+    </footer>
+
+</body>
+
+</html>
