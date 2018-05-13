@@ -42,7 +42,7 @@ html {
 }
 
 .side-nav {
-    height: 30%;
+    height: 35%;
     width: 0;
     position: fixed;
     z-index: 1;
